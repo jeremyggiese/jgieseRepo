@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCB5BCED2343D24E00208414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5BCEC2343D24E00208414 /* AppDelegate.swift */; };
+		DCB5BCEF2343D24E00208414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5BCEE2343D24E00208414 /* ViewController.swift */; };
+		DCB5BCF22343D24E00208414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB5BCF02343D24E00208414 /* Main.storyboard */; };
+		DCB5BCF42343D25000208414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCB5BCF32343D25000208414 /* Assets.xcassets */; };
+		DCB5BCF72343D25000208414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCB5BCF52343D25000208414 /* LaunchScreen.storyboard */; };
+		DCB5BD022343D25100208414 /* KinematicsSolverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5BD012343D25100208414 /* KinematicsSolverTests.swift */; };
+		DCB5BD0D2343D25100208414 /* KinematicsSolverUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB5BD0C2343D25100208414 /* KinematicsSolverUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCB5BCFE2343D25100208414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB5BCE12343D24E00208414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB5BCE82343D24E00208414;
+			remoteInfo = KinematicsSolver;
+		};
+		DCB5BD092343D25100208414 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCB5BCE12343D24E00208414 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCB5BCE82343D24E00208414;
+			remoteInfo = KinematicsSolver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DCB5BCE92343D24E00208414 /* KinematicsSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KinematicsSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5BCEC2343D24E00208414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCB5BCEE2343D24E00208414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCB5BCF12343D24E00208414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCB5BCF32343D25000208414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCB5BCF62343D25000208414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCB5BCF82343D25000208414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB5BCFD2343D25100208414 /* KinematicsSolverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinematicsSolverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5BD012343D25100208414 /* KinematicsSolverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinematicsSolverTests.swift; sourceTree = "<group>"; };
+		DCB5BD032343D25100208414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCB5BD082343D25100208414 /* KinematicsSolverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KinematicsSolverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCB5BD0C2343D25100208414 /* KinematicsSolverUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KinematicsSolverUITests.swift; sourceTree = "<group>"; };
+		DCB5BD0E2343D25100208414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCB5BCE62343D24E00208414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5BCFA2343D25100208414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5BD052343D25100208414 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCB5BCE02343D24E00208414 = {
+			isa = PBXGroup;
+			children = (
+				DCB5BCEB2343D24E00208414 /* KinematicsSolver */,
+				DCB5BD002343D25100208414 /* KinematicsSolverTests */,
+				DCB5BD0B2343D25100208414 /* KinematicsSolverUITests */,
+				DCB5BCEA2343D24E00208414 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCB5BCEA2343D24E00208414 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5BCE92343D24E00208414 /* KinematicsSolver.app */,
+				DCB5BCFD2343D25100208414 /* KinematicsSolverTests.xctest */,
+				DCB5BD082343D25100208414 /* KinematicsSolverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCB5BCEB2343D24E00208414 /* KinematicsSolver */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5BCEC2343D24E00208414 /* AppDelegate.swift */,
+				DCB5BCEE2343D24E00208414 /* ViewController.swift */,
+				DCB5BCF02343D24E00208414 /* Main.storyboard */,
+				DCB5BCF32343D25000208414 /* Assets.xcassets */,
+				DCB5BCF52343D25000208414 /* LaunchScreen.storyboard */,
+				DCB5BCF82343D25000208414 /* Info.plist */,
+			);
+			path = KinematicsSolver;
+			sourceTree = "<group>";
+		};
+		DCB5BD002343D25100208414 /* KinematicsSolverTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5BD012343D25100208414 /* KinematicsSolverTests.swift */,
+				DCB5BD032343D25100208414 /* Info.plist */,
+			);
+			path = KinematicsSolverTests;
+			sourceTree = "<group>";
+		};
+		DCB5BD0B2343D25100208414 /* KinematicsSolverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCB5BD0C2343D25100208414 /* KinematicsSolverUITests.swift */,
+				DCB5BD0E2343D25100208414 /* Info.plist */,
+			);
+			path = KinematicsSolverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCB5BCE82343D24E00208414 /* KinematicsSolver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB5BD112343D25100208414 /* Build configuration list for PBXNativeTarget "KinematicsSolver" */;
+			buildPhases = (
+				DCB5BCE52343D24E00208414 /* Sources */,
+				DCB5BCE62343D24E00208414 /* Frameworks */,
+				DCB5BCE72343D24E00208414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KinematicsSolver;
+			productName = KinematicsSolver;
+			productReference = DCB5BCE92343D24E00208414 /* KinematicsSolver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCB5BCFC2343D25100208414 /* KinematicsSolverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB5BD142343D25100208414 /* Build configuration list for PBXNativeTarget "KinematicsSolverTests" */;
+			buildPhases = (
+				DCB5BCF92343D25100208414 /* Sources */,
+				DCB5BCFA2343D25100208414 /* Frameworks */,
+				DCB5BCFB2343D25100208414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB5BCFF2343D25100208414 /* PBXTargetDependency */,
+			);
+			name = KinematicsSolverTests;
+			productName = KinematicsSolverTests;
+			productReference = DCB5BCFD2343D25100208414 /* KinematicsSolverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCB5BD072343D25100208414 /* KinematicsSolverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCB5BD172343D25100208414 /* Build configuration list for PBXNativeTarget "KinematicsSolverUITests" */;
+			buildPhases = (
+				DCB5BD042343D25100208414 /* Sources */,
+				DCB5BD052343D25100208414 /* Frameworks */,
+				DCB5BD062343D25100208414 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCB5BD0A2343D25100208414 /* PBXTargetDependency */,
+			);
+			name = KinematicsSolverUITests;
+			productName = KinematicsSolverUITests;
+			productReference = DCB5BD082343D25100208414 /* KinematicsSolverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCB5BCE12343D24E00208414 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jeremy Giese";
+				TargetAttributes = {
+					DCB5BCE82343D24E00208414 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					DCB5BCFC2343D25100208414 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DCB5BCE82343D24E00208414;
+					};
+					DCB5BD072343D25100208414 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = DCB5BCE82343D24E00208414;
+					};
+				};
+			};
+			buildConfigurationList = DCB5BCE42343D24E00208414 /* Build configuration list for PBXProject "KinematicsSolver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCB5BCE02343D24E00208414;
+			productRefGroup = DCB5BCEA2343D24E00208414 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCB5BCE82343D24E00208414 /* KinematicsSolver */,
+				DCB5BCFC2343D25100208414 /* KinematicsSolverTests */,
+				DCB5BD072343D25100208414 /* KinematicsSolverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCB5BCE72343D24E00208414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5BCF72343D25000208414 /* LaunchScreen.storyboard in Resources */,
+				DCB5BCF42343D25000208414 /* Assets.xcassets in Resources */,
+				DCB5BCF22343D24E00208414 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5BCFB2343D25100208414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5BD062343D25100208414 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCB5BCE52343D24E00208414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5BCEF2343D24E00208414 /* ViewController.swift in Sources */,
+				DCB5BCED2343D24E00208414 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5BCF92343D25100208414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5BD022343D25100208414 /* KinematicsSolverTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCB5BD042343D25100208414 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCB5BD0D2343D25100208414 /* KinematicsSolverUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCB5BCFF2343D25100208414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB5BCE82343D24E00208414 /* KinematicsSolver */;
+			targetProxy = DCB5BCFE2343D25100208414 /* PBXContainerItemProxy */;
+		};
+		DCB5BD0A2343D25100208414 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCB5BCE82343D24E00208414 /* KinematicsSolver */;
+			targetProxy = DCB5BD092343D25100208414 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCB5BCF02343D24E00208414 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB5BCF12343D24E00208414 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCB5BCF52343D25000208414 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCB5BCF62343D25000208414 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCB5BD0F2343D25100208414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DCB5BD102343D25100208414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCB5BD122343D25100208414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UDYS9TQ8R;
+				INFOPLIST_FILE = KinematicsSolver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giesejeremy.KinematicsSolver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCB5BD132343D25100208414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UDYS9TQ8R;
+				INFOPLIST_FILE = KinematicsSolver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giesejeremy.KinematicsSolver;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DCB5BD152343D25100208414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UDYS9TQ8R;
+				INFOPLIST_FILE = KinematicsSolverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giesejeremy.KinematicsSolverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinematicsSolver.app/KinematicsSolver";
+			};
+			name = Debug;
+		};
+		DCB5BD162343D25100208414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UDYS9TQ8R;
+				INFOPLIST_FILE = KinematicsSolverTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giesejeremy.KinematicsSolverTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KinematicsSolver.app/KinematicsSolver";
+			};
+			name = Release;
+		};
+		DCB5BD182343D25100208414 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UDYS9TQ8R;
+				INFOPLIST_FILE = KinematicsSolverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giesejeremy.KinematicsSolverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KinematicsSolver;
+			};
+			name = Debug;
+		};
+		DCB5BD192343D25100208414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6UDYS9TQ8R;
+				INFOPLIST_FILE = KinematicsSolverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giesejeremy.KinematicsSolverUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KinematicsSolver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCB5BCE42343D24E00208414 /* Build configuration list for PBXProject "KinematicsSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5BD0F2343D25100208414 /* Debug */,
+				DCB5BD102343D25100208414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB5BD112343D25100208414 /* Build configuration list for PBXNativeTarget "KinematicsSolver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5BD122343D25100208414 /* Debug */,
+				DCB5BD132343D25100208414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB5BD142343D25100208414 /* Build configuration list for PBXNativeTarget "KinematicsSolverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5BD152343D25100208414 /* Debug */,
+				DCB5BD162343D25100208414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCB5BD172343D25100208414 /* Build configuration list for PBXNativeTarget "KinematicsSolverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCB5BD182343D25100208414 /* Debug */,
+				DCB5BD192343D25100208414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCB5BCE12343D24E00208414 /* Project object */;
+}
